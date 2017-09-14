@@ -19,4 +19,5 @@ services:
       - "VIRTUAL_HOST=tobebot.co"
     links:
       - "nginx-proxy"
+    restart: on-failure
       
